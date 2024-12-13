@@ -2,11 +2,15 @@
 
 This analysis addresses skin cancer classification by leveraging an ensemble of deep learning models, specifically AlexNet and VGG16, known for their feature extraction capabilities. The ensemble demonstrated superior accuracy and predictive capabilities, significantly outperforming individual models and the baseline results. Evaluation metrics such as accuracy, F1, recall, precision, and AUC indicated notable improvements, with the ensemble achieving an precision of 0.90 and an AUC of 0.77. These findings suggest that ensemble methods can effectively enhance classification accuracy in skin cancer detection.
 
+**See attached in the repo the full report**
+
 **Discussion and Conclusion**
 
 The experimental results demonstrate that the ensemble model outperformed the individual AlexNet and VGG16 models in terms of precision and AUC. The ensemble model achieved a higher AUC (0.77) compared to AlexNet (0.76) and VGG16 (0.75), indicating better overall performance. The confusion matrices also show that the ensemble model had fewer false negatives and false positives compared to the individual models, making it more reliable for skin cancer classification.
+
 This research demonstrated that fine-tuning pre-trained models with data augmentation and combining their predictions through ensemble methods can significantly enhance the performance of skin cancer classification tasks. The ensemble model, in particular, showed promising results, outperforming individual models and providing a balanced performance across various metrics.
-This report highlights the promise of utilizing pre-trained models and ensemble techniques in medical image classification tasks, ultimately leading to more precise and dependable diagnostic tools
+
+The report highlights the promise of utilizing pre-trained models and ensemble techniques in medical image classification tasks, ultimately leading to more precise and dependable diagnostic tools
 
 **Key Findings**
 
